@@ -1,0 +1,52 @@
+{
+  "stateCharts": [
+    {
+      "key": "VZVqRc",
+      "label": "測試",
+      "content": "flowchart TD\n    n1[\"步驟一\"] --> n2[\"步驟二\"]\n    n2 --> n3[\"步驟三\"]\n    n3 --> n1\n\n\n\n",
+      "parent": null,
+      "metadata": {
+        "n1": {
+          "key": "GOQuEc",
+          "theme": {
+            "label": null,
+            "shape": null,
+            "style": {}
+          },
+          "data": {
+            "urls": [],
+            "description": ""
+          }
+        },
+        "n2": {
+          "key": "vKbOuT",
+          "theme": {
+            "label": null,
+            "shape": null,
+            "style": {}
+          },
+          "data": {
+            "urls": [],
+            "description": ""
+          }
+        },
+        "n3": {
+          "key": "BOUAVI",
+          "theme": {
+            "label": null,
+            "shape": null,
+            "style": {}
+          },
+          "data": {
+            "urls": [],
+            "description": ""
+          }
+        }
+      },
+      "updatedDate": "2025/07/13 01:23:23"
+    }
+  ],
+  "chartCategories": [],
+  "categories": [],
+  "updatedDate": "2025/07/13 01:23:28"
+}
