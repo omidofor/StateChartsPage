@@ -1,7 +1,7 @@
 {
 	"projects": [{
 		"text": "Demo",
-		"value": "https://github.com/omidofor/StateChartsPage/blob/main/projects/ChartDemo"
+		"value": "./project/ChartDemo"
 		
 	}]
 }
