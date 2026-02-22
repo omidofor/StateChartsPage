@@ -17796,6 +17796,282 @@
         }
       },
       "updatedDate": "2026/02/22 13:17:34"
+    },
+    {
+      "key": "IKZDCL",
+      "label": "物理攻擊",
+      "content": "flowchart TB\n    n1[\"武器攻擊力\"] -- 決定 --> n3[\"對怪物/玩家造成的傷害\"]\n    n2[\"額外攻擊點數\"] -- 決定 --> n3",
+      "parent": "KUcsVV",
+      "metadata": {
+        "n1": {
+          "key": "qvFDwB",
+          "chartNodeValue": null,
+          "theme": {
+            "label": null,
+            "shape": null,
+            "style": {}
+          },
+          "data": {
+            "urls": [],
+            "description": ""
+          },
+          "parent": "RsQDcN"
+        },
+        "n3": {
+          "key": "b4gbc6",
+          "chartNodeValue": null,
+          "theme": {
+            "label": null,
+            "shape": null,
+            "style": {}
+          },
+          "data": {
+            "urls": [],
+            "description": ""
+          }
+        },
+        "n2": {
+          "key": "KA9bxe",
+          "chartNodeValue": null,
+          "theme": {
+            "label": null,
+            "shape": null,
+            "style": {}
+          },
+          "data": {
+            "urls": [],
+            "description": ""
+          },
+          "parent": "jXl9rJ"
+        }
+      },
+      "updatedDate": "2026/02/23 02:10:24"
+    },
+    {
+      "key": "0jWRvc",
+      "label": "魔法攻擊",
+      "content": "flowchart TB\n    n1[\"魔法種類\"] -- 決定 --> n3[\"對怪物/玩家造成的傷害\"]\n    n2[\"魔法攻擊點數\"] -- 決定 --> n3",
+      "parent": "KUcsVV",
+      "metadata": {
+        "n1": {
+          "key": "4Gmy2y",
+          "chartNodeValue": null,
+          "theme": {
+            "label": null,
+            "shape": null,
+            "style": {}
+          },
+          "data": {
+            "urls": [],
+            "description": ""
+          },
+          "parent": "9Bp6Nb"
+        },
+        "n3": {
+          "key": "wIWB1j",
+          "chartNodeValue": null,
+          "theme": {
+            "label": null,
+            "shape": null,
+            "style": {}
+          },
+          "data": {
+            "urls": [],
+            "description": ""
+          }
+        },
+        "n2": {
+          "key": "Q4Teql",
+          "chartNodeValue": null,
+          "theme": {
+            "label": null,
+            "shape": null,
+            "style": {}
+          },
+          "data": {
+            "urls": [],
+            "description": ""
+          },
+          "parent": "QOUSIm"
+        }
+      },
+      "updatedDate": "2026/02/23 02:12:28"
+    },
+    {
+      "key": "zQHueR",
+      "label": "攻擊成功",
+      "content": "flowchart TB\n    n1[\"自身等級\"] --> n3[\"等級差距\"]\n    n2[\"怪物等級\"] --> n3\n    n3 -- 決定 --> n5[\"攻擊成功機率\"]\n    n4[\"攻擊成功點數\"] -- 決定 --> n5\n    n6[\"怪物防禦\"] -- 決定 --> n5",
+      "parent": "KUcsVV",
+      "metadata": {
+        "n1": {
+          "key": "nakL5H",
+          "chartNodeValue": null,
+          "theme": {
+            "label": null,
+            "shape": null,
+            "style": {}
+          },
+          "data": {
+            "urls": [],
+            "description": ""
+          },
+          "parent": "YoKSn0"
+        },
+        "n3": {
+          "key": "U1ynXr",
+          "chartNodeValue": null,
+          "theme": {
+            "label": null,
+            "shape": null,
+            "style": {}
+          },
+          "data": {
+            "urls": [],
+            "description": ""
+          }
+        },
+        "n2": {
+          "key": "MjIUjP",
+          "chartNodeValue": null,
+          "theme": {
+            "label": null,
+            "shape": null,
+            "style": {}
+          },
+          "data": {
+            "urls": [],
+            "description": ""
+          },
+          "parent": "34zsvX"
+        },
+        "n5": {
+          "key": "KaNCVu",
+          "chartNodeValue": null,
+          "theme": {
+            "label": null,
+            "shape": null,
+            "style": {}
+          },
+          "data": {
+            "urls": [],
+            "description": ""
+          }
+        },
+        "n4": {
+          "key": "4F49wm",
+          "chartNodeValue": null,
+          "theme": {
+            "label": null,
+            "shape": null,
+            "style": {}
+          },
+          "data": {
+            "urls": [],
+            "description": ""
+          },
+          "parent": "ESKMGI"
+        },
+        "n6": {
+          "key": "yvaDpl",
+          "chartNodeValue": null,
+          "theme": {
+            "label": "怪物物理防禦",
+            "shape": null,
+            "style": {}
+          },
+          "data": {
+            "urls": [],
+            "description": ""
+          },
+          "parent": "40i4Nk"
+        }
+      },
+      "updatedDate": "2026/02/23 02:17:06"
+    },
+    {
+      "key": "YoiL15",
+      "label": "物理防禦",
+      "content": "flowchart TB\n    n1[\"物理防禦\"] -- 決定 --> n2[\"受到攻擊命中的機率\"] & n3[\"受到攻擊時減免的傷害\"]",
+      "parent": "KUcsVV",
+      "metadata": {
+        "n1": {
+          "key": "quxtcB",
+          "chartNodeValue": null,
+          "theme": {
+            "label": null,
+            "shape": null,
+            "style": {}
+          },
+          "data": {
+            "urls": [],
+            "description": ""
+          },
+          "parent": "40i4Nk"
+        },
+        "n2": {
+          "key": "dnOgKk",
+          "chartNodeValue": null,
+          "theme": {
+            "label": null,
+            "shape": null,
+            "style": {}
+          },
+          "data": {
+            "urls": [],
+            "description": ""
+          }
+        },
+        "n3": {
+          "key": "IfQez0",
+          "chartNodeValue": null,
+          "theme": {
+            "label": null,
+            "shape": null,
+            "style": {}
+          },
+          "data": {
+            "urls": [],
+            "description": ""
+          }
+        }
+      },
+      "updatedDate": "2026/02/23 02:19:26"
+    },
+    {
+      "key": "lacyay",
+      "label": "魔法防禦",
+      "content": "flowchart TB\n    n1[\"魔法防禦\"] -- 決定 --> n2[\"受到魔法攻擊時減免的比例\"]",
+      "parent": "KUcsVV",
+      "metadata": {
+        "n1": {
+          "key": "Cii54I",
+          "chartNodeValue": null,
+          "theme": {
+            "label": null,
+            "shape": null,
+            "style": {}
+          },
+          "data": {
+            "urls": [],
+            "description": ""
+          },
+          "parent": "19BNMg"
+        },
+        "n2": {
+          "key": "Cu2795",
+          "chartNodeValue": null,
+          "theme": {
+            "label": null,
+            "shape": null,
+            "style": {}
+          },
+          "data": {
+            "urls": [],
+            "description": ""
+          }
+        }
+      },
+      "updatedDate": "2026/02/23 02:21:01"
     }
   ],
   "chartCategories": [
@@ -18206,6 +18482,12 @@
       "key": "KP6g0W",
       "label": "說話之島",
       "parent": "39EBft",
+      "children": []
+    },
+    {
+      "key": "KUcsVV",
+      "label": "攻擊與防禦",
+      "parent": "nK0sHI",
       "children": []
     }
   ],
@@ -20775,7 +21057,7 @@
       "label": "魔法",
       "parent": "KST5x4",
       "theme": {
-        "label": null,
+        "label": "魔法",
         "shape": null,
         "style": {}
       },
@@ -22583,5 +22865,5 @@
       }
     }
   ],
-  "updatedDate": "2026/02/22 14:27:41"
+  "updatedDate": "2026/02/23 02:21:35"
 }
