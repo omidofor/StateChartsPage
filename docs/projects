@@ -2,5 +2,9 @@
 	"projects": [{
 		"text": "天堂",
 		"value": "https://raw.githubusercontent.com/omidofor/StateChartsPage/refs/heads/main/docs/project/lineage"
+	}, {
+		"text": "社群",
+		"value": "/StateChartsPage/project/sm",
+		"usePassword": true
 	}]
 }
